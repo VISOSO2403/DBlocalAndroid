@@ -54,6 +54,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:hint="Sexo"
+            android:id="@+id/etxtsexo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:hint="Fecha de nacimiento"
             android:id="@+id/etxtfecha" />
 
