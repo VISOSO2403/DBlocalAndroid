@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    EditText id, nombre, telefono;
+    EditText id, nombre, telefono, apellido, edad, sexo, fecha, estatura;
     Button insertar1, insertar2, buscar1, buscar2, editar, eliminar, ver;
     Conexion conexion;
     Intent i;
@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         id = findViewById(R.id.etxtcampoid);
         nombre = findViewById(R.id.etxtnombre);
         telefono = findViewById(R.id.etxttelefono);
+        apellido = findViewById(R.id.etxtapellido);
+        edad = findViewById(R.id.etxtedad);
+        sexo = findViewById(R.id.etxtsexo);
+        fecha = findViewById(R.id.etxtfecha);
+        estatura = findViewById(R.id.etxtestatura);
 
         insertar1 = findViewById(R.id.btninsertar1);
         insertar2 = findViewById(R.id.btninsertar2);
@@ -85,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ContentValues valores = new ContentValues();
         valores.put(Variables.CAMPO_NOMBRE, nombre.getText().toString());
         valores.put(Variables.CAMPO_TELEFONO, telefono.getText().toString());
+
 
         long id = db.insert(Variables.NOMBRE_TABLA, Variables.CAMPO_ID, valores);
         //Toast.makeText(this, "id: "+id, Toast.LENGTH_LONG).show();
