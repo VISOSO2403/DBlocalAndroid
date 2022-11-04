@@ -35,43 +35,6 @@
             android:hint="Telefono"
             android:id="@+id/etxttelefono" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Primer Apellido"
-            android:id="@+id/etxtapellido" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Edad"
-            android:inputType="number"
-            android:id="@+id/etxtedad" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Sexo"
-            android:id="@+id/etxtsexo" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Fecha de nacimiento"
-            android:id="@+id/etxtfecha" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="Estatura"
-            android:inputType="number"
-            android:id="@+id/etxtestatura" />
-
     </LinearLayout>
 
 
